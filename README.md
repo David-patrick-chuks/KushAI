@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="/logo.png" alt="Kushai Logo" width="200" />
+  <img src="assets/kushaiLogo.jpg" alt="Kushai Logo" width="200" />
 </p>
 
-<h1 align="center">Kushai</h1>
+<!-- <h1 align="center">Kushai</h1> -->
 
 <p align="center">
   <strong>A unified interface to Google Gemini AI models with multi-version support</strong>
