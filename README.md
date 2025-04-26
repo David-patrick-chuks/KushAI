@@ -44,21 +44,21 @@ Kushai is an open-source AI platform that provides a unified interface to Google
 
 ### SDK
 
-\`\`\`bash
+```bash
 npm install @kushai/sdk
-\`\`\`
+```
 
 ### CLI
 
-\`\`\`bash
+```bash
 npm install -g @kushai/cli
-\`\`\`
+```
 
 ## 🚀 Quick Start
 
 ### Using the SDK
 
-\`\`\`typescript
+```typescript
 import { Kushai } from '@kushai/sdk';
 
 // Initialize with your Kushai API key
@@ -85,11 +85,11 @@ async function generateImage() {
 }
 
 generateText();
-\`\`\`
+```
 
 ### Using the CLI
 
-\`\`\`bash
+```bash
 # Configure your API key
 kushai config set --api-key "your-kushai-api-key"
 
@@ -101,19 +101,19 @@ kushai generate --prompt "Explain quantum computing" --model kush-2.0-pro
 
 # Generate an image
 kushai image --prompt "A futuristic city with flying cars" --model kush-2.5-creative --output ./images
-\`\`\`
+```
 
 ### Using the REST API
 
-\`\`\`bash
-curl -X POST https://api.kushai.com/v1/generate \
-  -H "Authorization: Bearer your-kushai-api-key" \
-  -H "Content-Type: application/json" \
+```bash
+curl -X POST https://api.kushai.com/v1/generate 
+  -H "Authorization: Bearer your-kushai-api-key" 
+  -H "Content-Type: application/json" 
   -d '{
     "prompt": "Explain quantum computing in simple terms",
     "model": "kush-2.0-pro"
   }'
-\`\`\`
+```
 
 ## 🏗️ Architecture
 
@@ -140,32 +140,32 @@ The architecture follows these key principles:
 
 Generate human-like text for various applications:
 
-\`\`\`typescript
+```typescript
 const response = await kushai.generate({
   prompt: "Write a short story about a robot learning to paint",
   model: "kush-2.0-pro",
   temperature: 0.7
 });
-\`\`\`
+```
 
 ### Image Generation
 
 Create images from text descriptions:
 
-\`\`\`typescript
+```typescript
 const response = await kushai.generateImage({
   prompt: "A serene mountain landscape at sunset",
   model: "kush-2.5-creative",
   width: 1024,
   height: 1024
 });
-\`\`\`
+```
 
 ### Chat
 
 Have interactive conversations:
 
-\`\`\`typescript
+```typescript
 const response = await kushai.chat({
   messages: [
     { role: "system", content: "You are a helpful assistant." },
@@ -173,13 +173,13 @@ const response = await kushai.chat({
   ],
   model: "kush-2.0-pro"
 });
-\`\`\`
+```
 
 ### Function Calling
 
 Use structured function calls for specific tasks:
 
-\`\`\`typescript
+```typescript
 const response = await kushai.functionCall({
   prompt: "What's the weather in New York?",
   functions: [
@@ -200,19 +200,19 @@ const response = await kushai.functionCall({
   ],
   model: "kush-2.0-pro"
 });
-\`\`\`
+```
 
 ### Multimodal
 
 Process text and images together:
 
-\`\`\`typescript
+```typescript
 const response = await kushai.multimodal({
   prompt: "What's in this image?",
   imageUrl: "https://example.com/image.jpg",
   model: "kush-2.0-vision"
 });
-\`\`\`
+```
 
 ## 🤖 Models
 
@@ -256,36 +256,36 @@ Kushai implements robust security measures:
 ### Setup
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/kushai/kushai.git
    cd kushai
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Set up environment variables:
-   \`\`\`bash
+   ```bash
    cp .env.example .env
    # Edit .env with your configuration
-   \`\`\`
+   ```
 
 4. Start development servers:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 ### Testing
 
-\`\`\`bash
+```bash
 # Run all tests
 npm test
 
 # Run tests for a specific package
 npm test --workspace=@kushai/sdk
-\`\`\`
+```
 
 ## 🤝 Contributing
 
