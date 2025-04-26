@@ -7,13 +7,13 @@
 <p align="center">
   <strong>A unified interface to Google Gemini AI models with multi-version support</strong>
 </p>
-
+<!-- 
 <p align="center">
   <a href="https://github.com/kushai/kushai/actions"><img src="https://github.com/kushai/kushai/workflows/CI/badge.svg" alt="Build Status"></a>
   <a href="https://codecov.io/gh/kushai/kushai"><img src="https://codecov.io/gh/kushai/kushai/branch/main/graph/badge.svg" alt="Coverage Status"></a>
   <a href="https://github.com/kushai/kushai/blob/main/LICENSE"><img src="https://img.shields.io/github/license/kushai/kushai" alt="License"></a>
   <a href="https://www.npmjs.com/package/@kushai/sdk"><img src="https://img.shields.io/npm/v/@kushai/sdk.svg" alt="npm version"></a>
-</p>
+</p> -->
 
 ## 🚀 Overview
 
