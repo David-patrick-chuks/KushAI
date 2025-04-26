@@ -7,17 +7,17 @@
 <p align="center">
   <strong>A unified interface to Google Gemini AI models with multi-version support</strong>
 </p>
-<!-- 
+
 <p align="center">
-  <a href="https://github.com/kushai/kushai/actions"><img src="https://github.com/kushai/kushai/workflows/CI/badge.svg" alt="Build Status"></a>
+  <!-- <a href="https://github.com/kushai/kushai/actions"><img src="https://github.com/kushai/kushai/workflows/CI/badge.svg" alt="Build Status"></a> -->
   <a href="https://codecov.io/gh/kushai/kushai"><img src="https://codecov.io/gh/kushai/kushai/branch/main/graph/badge.svg" alt="Coverage Status"></a>
   <a href="https://github.com/kushai/kushai/blob/main/LICENSE"><img src="https://img.shields.io/github/license/kushai/kushai" alt="License"></a>
   <a href="https://www.npmjs.com/package/@kushai/sdk"><img src="https://img.shields.io/npm/v/@kushai/sdk.svg" alt="npm version"></a>
-</p> -->
+</p>
 
 ## 🚀 Overview
 
-Kushai is an open-source AI platform that provides a unified interface to Google Gemini models with multi-version support. It abstracts away the complexity of managing multiple API keys and provides a simple, consistent API for developers.
+Kushai is an open-source AI platform that hacks the complexity of working with Google Gemini models, providing a unified, developer-friendly interface with multi-version support. It smartly manages a pool of Gemini API keys in the background, giving developers a simple, consistent API for seamless and scalable AI integration.
 
 ### 🌟 Key Features
 
